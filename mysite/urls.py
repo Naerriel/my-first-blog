@@ -6,5 +6,7 @@ urlpatterns = [
     # url(r'^$', 'mysite.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
 
+    # Sending message to the other side
+
     url(r'^admin/', include(admin.site.urls)),
 ]
